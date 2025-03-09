@@ -5,12 +5,12 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6">
-      <div className="flex flex-shrink-0 items-center">
-        <a href="/" aria-label="Home">
+      <div className="flex flex-shrink-0 items-center lg:pl-14">
+        <a href="/portfolio/" aria-label="Home">
           <img src={logo} className="mx-2" width={50} height={33} alt="logo" />
         </a>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="m-8 flex items-center justify-center gap-4 text-2xl lg:pr-10">
         <a
           href="https://www.linkedin.com/in/shivam-kumar-027949140/"
           target="_blank"
