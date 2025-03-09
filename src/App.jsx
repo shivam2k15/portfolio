@@ -1,3 +1,4 @@
+import Bio from "./components/Bio";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       
       <div className="container mx-auto px-8">
           <Navbar />
+          <Bio />
         </div>
     </div>
   );
