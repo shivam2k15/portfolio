@@ -34,6 +34,11 @@ const Bio = () => {
             (MongoDb) and Caches (Redis), Docker and AWS services.
             Worked with frontend frameworks for SSR in React, StencilJs, Angular and Ejs.`}
             </p>
+            <a
+              href="https://docs.google.com/document/d/1MRULjBMkfUOC2-IMhZgqu7JDiKOrUxXGTtZJD25OD5I/edit?usp=sharing"
+              target="_blank"
+              className="w-32 p-4 text-sm bg-white rounded-full text-stone-800 hover:text-stone-500"
+            >View Resume</a>
           </div>
         </div>
       </div>

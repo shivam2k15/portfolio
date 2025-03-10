@@ -1,5 +1,8 @@
 import Bio from "./components/Bio";
 import Navbar from "./components/Navbar";
+import Technologies from "./components/Technologies";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -14,6 +17,9 @@ const App = () => {
       <div className="container mx-auto px-8">
           <Navbar />
           <Bio />
+          <Technologies />
+          <Experience />
+          <Contact />
         </div>
     </div>
   );
