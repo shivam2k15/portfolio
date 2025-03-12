@@ -1,17 +1,34 @@
-import React from "react";
+import { motion } from "framer-motion";
+import { contact } from "../constant";
 
 const Contact = () => {
-  const contact = {
-    address: "Dharnidharpur, Post-Sadar, Jaunpur, Uttar Pradesh, India, 222001",
-    email: "shivamkumar2k16k@gmail.com",
-    phone: "+918318942503",
-  };
   return (
     <div className="border-t border-stone-900 pb-20">
-      <h2 className="my-10 text-center text-4xl">Get in Touch</h2>
+      <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.5 }}
+        className="my-10 text-center text-4xl"
+      >
+        Get in Touch
+      </motion.h2>
       <div className="text-center tracking-tighter">
-        <p className="my-4">{contact.address}</p>
-        <p className="my-4">{contact.phone}</p>
+        <motion.p
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 1 }}
+          className="my-4"
+        >
+          {contact.address}
+        </motion.p>
+        <motion.p
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 100 }}
+          transition={{ duration: 1 }}
+          className="my-4"
+        >
+          {contact.phone}
+        </motion.p>
         <a href="#" className="border-b">
           {contact.email}
         </a>

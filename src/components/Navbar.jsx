@@ -1,6 +1,6 @@
-import React from "react";
 import logo from "../assets/ShivamLogo.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { socials } from "../constant";
 
 const Navbar = () => {
   return (
@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl lg:pr-10">
         <a
-          href="https://www.linkedin.com/in/shivam-kumar-027949140/"
+          href={socials.linkedin}
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn"
@@ -20,7 +20,7 @@ const Navbar = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/shivam2k15"
+          href={socials.github}
           target="_blank"
           rel="noreferrer"
           aria-label="Github"
