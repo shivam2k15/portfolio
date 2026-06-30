@@ -1,26 +1,45 @@
 export const bio = {
   name: "Shivam Kumar",
-  title: "Software Development Engineer II",
-  description: `Experienced Software Engineer with 5 years of expertise in building 
-               high-performance web applications using Nodejs, Express, React, Next.js
-               with JavaScript and TypeScript. Skilled in optimizing backend performance,
-               designing RESTful & GraphQL APIs, and managing relational (MySQL, PostgreSQL) and 
-               NoSQL (MongoDB) databases with caching (Redis). Proficient in Docker, AWS, 
-               and CI/CD pipelines using Jenkins, Git. Passionate about DevOps, 
-               scalability, and AI-driven solutions.`,
+  title: "Senior Software Engineer",
+  description: `Full-Stack Software Engineer with 6+ years of experience building scalable, production-grade applications across SaaS domains. Strong expertise in Node.js, React, Next.js, TypeScript, distributed systems, API performance optimization, and Generative AI agent development. Proven ability to design and develop high-performance end-to-end solutions, from intuitive user interfaces to resilient backend services and AI-powered workflows, handling real-world scale, concurrency, and reliability challenges. Experienced in cloud deployment, database design, LLM integration, and delivering maintainable, business-focused software.`,
   resumeUrl:
     "https://docs.google.com/document/d/1MRULjBMkfUOC2-IMhZgqu7JDiKOrUxXGTtZJD25OD5I/edit?usp=sharing",
 };
 
 export const contact = {
-  address: "Dharnidharpur, Post-Sadar, Jaunpur, Uttar Pradesh, India, 222001",
+  address: "Indore, MP, India, 452014",
   email: "shivamkumar2k16k@gmail.com",
   phone: "+918318942503",
 };
 
 export const experiences = [
   {
-    year: "2022 - Present",
+    year: "2025 - Present",
+    role: "Senior Developer Engineer",
+    company: "Qualwebs",
+    description: `Designed and implemented Requester & Matter management system with lifecycle workflows (requested → active → completed), improving process clarity and efficiency in Frontend React and backend Nodejs.
+ Built role-based access control (RBAC) with stage-based permissions for secure operations across workflows.
+Implemented a configurable notification system using cron jobs with user-level toggles for controlled delivery.
+Architected a global search solution using Elasticsearch, leveraging inverted indexing, custom analyzers, and relevance tuning; enabled cross-module search with high performance and scalability with frontend in react.
+Integrated Redis for caching and performance optimization in backend services.
+Contributed to real-time features using sockets and improved notification latency.
+Reduced redundant notification triggers by improving scheduling logic and conditional checks throughout the platform.
+Led code refactoring, conducted knowledge transfers, and collaborated across teams.
+Hands-on experience with Generative AI POCs, including LLM integration, prompt engineering, and AI workflow design. Actively developing an AI interviewer application to deepen expertise in AI agents, conversational systems, context management, and interview automation.
+`,
+    technologies: [
+      "NodeJs",
+      "Mongodb",
+      "ReactJs",
+      "NextJs",
+      "Redis",
+      "Postgres",
+      "Docker",
+      "AWS", "Nginx","Elastic Search", "CI/CD","BullMQ", "Redux", "Langchain","Langraph","AI","OpenAI","Ollama","Qwen"
+    ],
+  },
+  {
+    year: "2022 - 2025",
     role: "Software Developer Engineer II",
     company: "Byteridge",
     description: `Worked on creating a Passport application for the Y-axis company in nodejs, 
